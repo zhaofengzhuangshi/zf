@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>家装一站式服务指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #f7f8fa;
+            color: #333;
+            line-height: 1.7;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #222;
+        }
+        .qrcode-group {
+            display: flex;
+            gap: 20px;
+        }
+        .qrcode-item {
+            text-align: center;
+            font-size: 12px;
+        }
+        .qrcode {
+            width: 80px;
+            height: 80px;
+            background: #eee;
+            margin-bottom: 4px;
+        }
+        .nav {
+            background: #f2f2f2;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+        .nav a {
+            margin-right: 12px;
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .nav a:hover {
+            color: #0066cc;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin: 20px 0;
+            color: #222;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 25px;
+            font-size: 15px;
+        }
+        .info-card {
+            background: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px 20px;
+            margin-bottom: 20px;
+        }
+        .info-card h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .info-card p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            font-size: 18px;
+            border-left: 4px solid #0066cc;
+            padding-left: 10px;
+            margin-bottom: 15px;
+        }
+        .item-list {
+            padding-left: 20px;
+        }
+        .item-list li {
+            font-size: 14px;
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .table-box {
+            width: 100%;
+            overflow-x: auto;
+            margin: 15px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px 10px;
+            text-align: center;
+        }
+        table th {
+            background: #f2f2f2;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            color: #999;
+            border-top: 1px solid #eee;
+            margin-top: 30px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #0066cc;
+            color: #fff;
+            border-radius: 4px;
+            font-size: 13px;
+            text-decoration: none;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="logo">宁夏兆丰装饰工程有限公司 · 家装一站式指南</div>
+        <div class="qrcode-group">
+            <div class="qrcode-item">
+                <div class="qrcode">微信二维码</div>
+                设计师微信
+            </div>
+            <div class="qrcode-item">
+                <div class="qrcode">抖音二维码</div>
+                工地案例
+            </div>
+        </div>
+    </div>
+
+    <div class="nav">
+        首页
+        装修指南
+        案例展示
+        套餐报价
+        联系我们
+    </div>
+
+    <h1 class="title">家装全流程服务指南</h1>
+    <p class="subtitle">从毛坯到入住，一篇看懂装修所有流程</p >
+
+    <div class="info-card">
+        <h3>关于我们</h3>
+        <p>宁夏本地专业装修公司，专注新房装修、旧房改造、全屋定制。</p >
+        <p>自有施工团队，全程透明报价，无恶意增项，水电质保10年。</p >
+    </div>
+
+    <div class="section" id="guide">
+        <h2>装修必看基础信息</h2>
+        <ul class="item-list">
+            <li>免费上门量房、出平面方案、初步预算</li>
+            <li>全包/半包/局部改造均可承接</li>
+            <li>工地每日拍照，业主群实时同步进度</li>
+            <li>品牌主材一站式选购，正品保障</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>标准装修流程</h2>
+        <ul class="item-list">
+            <li>1. 验房收房 → 免费量房</li>
+            <li>2. 设计方案 → 报价确认</li>
+            <li>3. 签订合同 → 开工交底</li>
+            <li>4. 拆改 → 水电 → 防水 → 瓦木油工</li>
+            <li>5. 主材安装 → 开荒保洁 → 竣工验收</li>
+        </ul>
+    </div>
+
+    <div class="section" id="price">
+        <h2>装修套餐参考</h2>
+        <div class="table-box">
+            <table>
+                <tr>
+                    <th>户型</th>
+                    <th>套餐</th>
+                    <th>包含内容</th>
+                    <th>工期</th>
+                </tr>
+                <tr>
+                    <td>两室一厅</td>
+                    <td>经济全包</td>
+                    <td>设计+人工+辅材+主材</td>
+                    <td>60天</td>
+                </tr>
+                <tr>
+                    <td>三室两厅</td>
+                    <td>品质整装</td>
+                    <td>全屋硬装+定制柜体</td>
+                    <td>75天</td>
+                </tr>
+                <tr>
+                    <td>旧房改造</td>
+                    <td>翻新套餐</td>
+                    <td>拆改+水电重做+全新装修</td>
+                    <td>80天</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>核心施工标准</h2>
+        <ul class="item-list">
+            <li>水电走顶不走地，强弱电分离</li>
+            <li>防水闭水试验48小时，墙面高度≥1.8m</li>
+            <li>所有材料正品保障，假一赔十</li>
+            <li>分阶段验收，不合格不进入下一工序</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>常见装修问题</h2>
+        <ul class="item-list">
+            <li>Q：装修多久可以入住？</li>
+            <p>A：完工通风1-3个月，支持免费甲醛检测。</p >
+            <li>Q：报价是否有增项？</li>
+            <p>A：合同价即为落地价，无恶意增项。</p >
+            <li>Q：旧房改造可以局部装吗？</li>
+            <p>A：可以，厨卫翻新、墙面刷新等均可单独施工。</p >
+        </ul>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>联系预约</h2>
+        <p>电话：15121879431</p >
+        <p>地址：贺兰县-宁夏银川贺兰县虹桥御景南门往东100米8-4营业房</p >
+        立即预约免费量房
+    </div>
+
+    <div class="footer">
+        宁夏兆丰装饰工程有限公司 ©2025 家装一站式服务指南 | 所有内容仅供参考，以线下门店为准
+    </div>
+
+</div>
+
+</body>
+</html>
